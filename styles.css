@@ -36,54 +36,54 @@ main{
     letter-spacing: 1px;
 }
 
-	main div{
-	    max-width: 800px; 
-	    margin: auto;	
-	}
+main div{
+    max-width: 800px; 
+    margin: auto;	
+}
 
-	main h1{
-		margin: 40px auto 15px auto;
-		max-width: 600px;
-		font-size: 30px;
-		font-style: oblique;
-		font-family: Helvetica;
-		color: #31FF9F;
-		text-align: left;
-		text-shadow: 3px 3px 2px #222;
-	}
+main h1{
+	margin: 40px auto 15px auto;
+	max-width: 600px;
+	font-size: 30px;
+	font-style: oblique;
+	font-family: Helvetica;
+	color: #31FF9F;
+	text-align: left;
+	text-shadow: 3px 3px 2px #222;
+}
 
-	main h2{
-		max-width: 628px;
-		margin: 0px auto 0px auto;
-		font-size: 16px;
-		text-align: left;
-		color: #FFF;
-	}
+main h2{
+	max-width: 628px;
+	margin: 0px auto 0px auto;
+	font-size: 16px;
+	text-align: left;
+	color: #FFF;
+}
 
-	main h3{
-		max-width: 628px;
-		margin: 0px auto;
-		font-size: 14px;
-		text-align: left;
-		color: #BBB;
-	}
+main h3{
+	max-width: 628px;
+	margin: 0px auto;
+	font-size: 14px;
+	text-align: left;
+	color: #BBB;
+}
 
-	main p{
-		margin: 15px auto 35px auto;
-		max-width: 628px;
-		text-align: left;
-		line-height: 22px;
-	}
+main p{
+	margin: 15px auto 35px auto;
+	max-width: 628px;
+	text-align: left;
+	line-height: 22px;
+}
 
-	main ul{
-		margin: 10px auto;
-		max-width: 645px;
-		text-align: left;
-	}
+main ul{
+	margin: 10px auto;
+	max-width: 645px;
+	text-align: left;
+}
 
-		main ul li{
-			margin: 10px 0px;
-		}
+main ul li{
+	margin: 10px 0px;
+}
 
 .heading{
 	margin: 10px auto;

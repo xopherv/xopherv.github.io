@@ -18,7 +18,7 @@ body{
 	width: 100%;
     background: #000;
     position: relative;
-    color: #FFF;
+    color: #DDD;
     font-family: Verdana, sans-serif;
 }
 
@@ -41,66 +41,57 @@ main{
 	    margin: auto;	
 	}
 
-main p{
-	margin: 0px 0px 20px 0px;
-}
+	main h1{
+		margin: 40px auto 15px auto;
+		max-width: 600px;
+		font-size: 30px;
+		font-style: oblique;
+		font-family: Helvetica;
+		color: #31FF9F;
+		text-align: left;
+		text-shadow: 3px 3px 2px #222;
+	}
 
-form div{
-	width: 400px;
-}
+	main h2{
+		max-width: 628px;
+		margin: 0px auto 0px auto;
+		font-size: 16px;
+		text-align: left;
+		color: #FFF;
+	}
 
-	form div ul{
-		list-style: none;
-		display: inline;
+	main h3{
+		max-width: 628px;
+		margin: 0px auto;
+		font-size: 14px;
+		text-align: left;
+		color: #BBB;
+	}
+
+	main p{
+		margin: 15px auto 35px auto;
+		max-width: 628px;
+		text-align: left;
+		line-height: 22px;
+	}
+
+	main ul{
+		margin: 10px auto;
+		max-width: 645px;
 		text-align: left;
 	}
 
-		form div ul li{
-			width: 90%;
-			margin: 0px auto;
+		main ul li{
+			margin: 10px 0px;
 		}
 
-label{
-	display: inline-block;
-	width: 100px;
-	margin-top: 10px;
-	color: #31FF9F;
-}
-
-input{
-	display: inline-block;
-	width: 50%;
-	padding-left: 5px;
-	font-size: 14px;
-}
-
-textarea{
-	display: inline-block;
-	width: 100%;
-	padding-left: 5px;
-	font-size: 14px;
-	margin-bottom: 10px;
-}
-
 .heading{
-	margin: 15px 0px 0px 0px;
+	margin: 10px auto;
 	font-size: 30px;
 	font-style: oblique;
 	font-family: Helvetica;
 	color: #31FF9F;
-}
-
-.service_images{
-	max-width: 250px;
-	max-height: 250px;
-	margin: 10px;
-	border-radius: 25px 25px 25px 25px;
-	flex: 1;
-}
-
-.error{
-	color: red;
-	display: block;
+	text-align: center;
 }
 
 #div_backdrop{
@@ -130,14 +121,6 @@ textarea{
 	align-items: center;
 }
 
-#img_logo{
-	margin-left: auto;
-	margin-right: auto;
-	max-height: 300px;
-	max-width: 300px;
-	text-align: center;
-}
-
 #banner_name{
 	margin: auto;
     font-size: 60px;
@@ -154,6 +137,7 @@ textarea{
 #banner_service{
 	margin: 10px;
     font-size: 30px;
+    text-shadow: 3px 3px 2px #222;
     letter-spacing: 6px;
     color: #31FF9F;
     bottom: 10px;
@@ -166,6 +150,7 @@ textarea{
 	color: #DDD;
 	bottom: 10px;
 	position: relative;
+	letter-spacing: 2px;
 }
 
 #header{
@@ -176,7 +161,6 @@ textarea{
 	margin: 0px auto;
 	padding: 0px 0px;
 	width: 100%;
-	background: linear-gradient(to bottom, #000894 0%, #000471 30%, #0B1128 100%);
 }
 
 	#main_nav ul{
@@ -205,24 +189,29 @@ textarea{
 				letter-spacing: 5px;
 				display: block;
 				padding: 10px;
+				box-shadow: 0px 6px 5px #111;
+				background: linear-gradient(to bottom, #000894 0%, #000471 30%, #0B1128 100%);
 			}
 
-		#main_nav ul li a:hover, #main_nav ul li a:focus{
-			background-color: #31FF9F;
-			color: #444;
-			text-decoration: none;
-		}
+			#main_nav ul li a:hover, #main_nav ul li a:focus{
+				background: #31FF9F;
+				color: #444;
+				text-decoration: none;
+			}
 
 #img_portrait{
-    max-width: 250px;
-    max-height: 250px;
+	margin-top: 20px;
+    max-width: 150px;
+    max-height: 150px;
     display: inline;
     border-radius: 200px;
+    position: relative;
+    right: 5px;
 }
 
-#ul_contact{
-	list-style: none;
-	display: inline;
+#img_vm{
+	position: relative;
+	right: 15px;
 }
 
 #footer{
@@ -259,16 +248,6 @@ textarea{
   text-decoration: none;
   border-radius: 50%;
   font-size: 15px;
-}
-
-#footer .fa-twitch {
-  background: #772CE8;
-  color: white;
-}
-
-#footer .fa-youtube {
-  background: #FF0000;
-  color: white;
 }
 
 #footer .fa-linkedin {

@@ -58,6 +58,12 @@ main h3{
 	color: #BBB;
 }
 
+main a{
+	max-width: 628px;
+	margin: 0px auto;
+	color: royalblue;
+}
+
 main p{
 	margin: 15px auto 35px auto;
 	max-width: 628px;
@@ -82,6 +88,12 @@ main ul li{
 	font-family: Helvetica;
 	color: #31FF9F;
 	text-align: center;
+}
+
+.img_screenshot{
+	margin: 10px auto;
+	max-width: 500px;
+	border-radius: 20px;
 }
 
 #div_backdrop{
@@ -197,11 +209,6 @@ main ul li{
     border-radius: 200px;
     position: relative;
     right: 5px;
-}
-
-#img_vm{
-	position: relative;
-	right: 15px;
 }
 
 #footer{

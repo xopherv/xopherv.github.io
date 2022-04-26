@@ -1,0 +1,86 @@
+<!-------w-----------
+
+    Project 3
+    Name: CJ Vergel
+    Date: 2022-04-23
+    Description: An HTML document for Project 3 
+    that contains a form for contacting the client.
+	
+-------------------->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>CJ Vergel's Page</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="validation.js"></script>
+    </head>
+    <body>
+        <div id="div_backdrop">
+            <header id="header">
+                <div id="div_banner">
+                    <div id="div_content">
+                        <p id="banner_name">CJ Vergel</p>
+                        <img id="img_logo" src="images/logo.png" alt="CJ's logo">
+                        <p id="banner_service">Skill Services</p>
+                        <p id="banner_slogan">Get on the next level.</p>
+                    </div>
+                </div>
+                <nav id="main_nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </header>
+            <main>
+                <div>
+                    <form id="contactform" action="index.html" method="post">
+                        <div>
+                            <h1 class="heading">Contact Me</h1>
+                            <p>Please fill out the following information and I will get back to you as soon as I can.</p>
+                            <ul>
+                                <li>
+                                    <label for="name">Name</label>
+                                    <input id="name" name="name" type="text" />
+                                    <p class="error" id="name_error">* Required field</p>
+                                </li>
+                                <li>
+                                    <label for="phone">Phone</label>
+                                    <input id="phone" name="phone" type="tel" />
+                                    <p class="error" id="phone_error">* Required field</p>
+                                    <p class="error" id="phoneformat_error">* Invalid phone number</p>
+                                </li>
+                                <li>
+                                    <label for="email">Email</label>
+                                    <input id="email" name="email" type="text" />
+                                    <p class="error" id="email_error">* Required field</p>
+                                    <p class="error" id="emailformat_error">* Invalid email address</p>
+                                </li>
+                                <li>
+                                    <label for="comments">Comments</label>
+                                    <textarea id="comments"></textarea> 
+                                </li>
+                            </ul>
+                            <button type="reset">Clear</button>
+                            <button type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </main>
+            <footer id="footer">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <ul>
+                    <li><a href="https://www.twitch.tv/x_ovr" class="fa fa-twitch"></a>
+                    <li><a href="https://www.youtube.com/channel/UCnBm273vLbNlPQ27StPaVNw" class="fa fa-youtube"></a>
+                    <li><a href="https://www.linkedin.com/in/christopher-vergel-08498919b" class="fa fa-linkedin"></a>
+                </ul>
+            </footer>
+        </div>
+    </body>
+</html>

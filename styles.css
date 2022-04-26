@@ -1,0 +1,287 @@
+/*******w************
+
+    Project 3
+    Name: CJ Vergel
+    Date: 2022-04-23
+    Description: A CSS document used for Project 3
+    to style the html pages.
+
+********************/
+
+html, body, p, header, footer, div, main{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+	width: 100%;
+    background: #000;
+    position: relative;
+    color: #FFF;
+    font-family: Verdana, sans-serif;
+}
+
+main{
+	background: #333;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+    width: 99%;
+    float: none;
+    padding: 20px 20px 20px 20px;
+    overflow: auto;
+    text-align: center;
+    font-size: 16px;
+    font-family: helvetica;
+    letter-spacing: 1px;
+}
+
+	main div{
+	    max-width: 800px; 
+	    margin: auto;	
+	}
+
+main p{
+	margin: 0px 0px 20px 0px;
+}
+
+form div{
+	width: 400px;
+}
+
+	form div ul{
+		list-style: none;
+		display: inline;
+		text-align: left;
+	}
+
+		form div ul li{
+			width: 90%;
+			margin: 0px auto;
+		}
+
+label{
+	display: inline-block;
+	width: 100px;
+	margin-top: 10px;
+	color: #31FF9F;
+}
+
+input{
+	display: inline-block;
+	width: 50%;
+	padding-left: 5px;
+	font-size: 14px;
+}
+
+textarea{
+	display: inline-block;
+	width: 100%;
+	padding-left: 5px;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
+.heading{
+	margin: 15px 0px 0px 0px;
+	font-size: 30px;
+	font-style: oblique;
+	font-family: Helvetica;
+	color: #31FF9F;
+}
+
+.service_images{
+	max-width: 250px;
+	max-height: 250px;
+	margin: 10px;
+	border-radius: 25px 25px 25px 25px;
+	flex: 1;
+}
+
+.error{
+	color: red;
+	display: block;
+}
+
+#div_backdrop{
+	width: 100%;
+	margin: auto;
+	padding: 20px;
+    background: linear-gradient(to bottom, #222 0%, #191919 98%, #000 100%);
+    overflow: auto;
+    position: relative;
+}
+
+#div_banner{
+	background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(images/banner.jpg);
+	box-shadow: 0px 0px 10px #000;
+	border-radius: 10px 10px 0px 0px;	
+    color: #FFF;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+#div_content{
+	color: #FFF;
+	text-align: center;
+	align-items: center;
+}
+
+#img_logo{
+	margin-left: auto;
+	margin-right: auto;
+	max-height: 300px;
+	max-width: 300px;
+	text-align: center;
+}
+
+#banner_name{
+	margin: auto;
+    font-size: 60px;
+    text-transform: uppercase;
+    text-shadow: 10px 5px 10px #000;
+    font-family: Helvetica;
+    letter-spacing: 30px;
+    color: #EEE;
+    top: 10px;
+    left: 15px;
+    position: relative;
+}
+
+#banner_service{
+	margin: 10px;
+    font-size: 30px;
+    letter-spacing: 6px;
+    color: #31FF9F;
+    bottom: 10px;
+	position: relative;
+}
+
+#banner_slogan{
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #DDD;
+	bottom: 10px;
+	position: relative;
+}
+
+#header{
+	width: 100%;
+}
+
+#main_nav{
+	margin: 0px auto;
+	padding: 0px 0px;
+	width: 100%;
+	background: linear-gradient(to bottom, #000894 0%, #000471 30%, #0B1128 100%);
+}
+
+	#main_nav ul{
+		display: flex;
+		margin: 0px 0px;
+		padding: 0px 0px;
+		flex-wrap: wrap;
+		list-style: none;
+		text-align: center;
+		font-size: 15px;
+		text-transform: uppercase;
+		}
+
+		#main_nav ul li{
+			flex: 1;
+			padding: 0px;
+			font-family: Helvetica;
+			text-transform: uppercase;
+			font-size: 18px;
+			
+		}
+
+			#main_nav ul li a{
+				color: #EEE;
+				text-decoration: none;
+				letter-spacing: 5px;
+				display: block;
+				padding: 10px;
+			}
+
+		#main_nav ul li a:hover, #main_nav ul li a:focus{
+			background-color: #31FF9F;
+			color: #444;
+			text-decoration: none;
+		}
+
+#img_portrait{
+    max-width: 250px;
+    max-height: 250px;
+    display: inline;
+    border-radius: 200px;
+}
+
+#ul_contact{
+	list-style: none;
+	display: inline;
+}
+
+#footer{
+	text-align: center;
+	padding: 15px;
+	font-size: 12px;
+}
+
+	#footer ul{
+		list-style: none;
+		display: block;
+		padding: 0px;
+	}
+
+		#footer ul li{
+			display: inline;
+		}
+
+			#footer ul li a{
+				margin: 15px;
+				color: #777;
+				text-decoration: none;
+			}
+
+			#footer ul li a:hover, #footer ul li a:focus{
+				color: #31FF9F;
+				opacity: 60%;
+			}
+
+#footer .fa {
+  padding: 15px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  font-size: 15px;
+}
+
+#footer .fa-twitch {
+  background: #772CE8;
+  color: white;
+}
+
+#footer .fa-youtube {
+  background: #FF0000;
+  color: white;
+}
+
+#footer .fa-linkedin {
+  background: #0A66C2;
+  color: white;
+}
+
+@media(max-width: 1060px){
+	#main_nav ul{
+		flex-direction: column;
+	}
+
+	#main_nav ul li a{
+		padding: 30px;
+	}
+}
